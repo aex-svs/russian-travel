@@ -4,6 +4,12 @@
 
 @media (min-width: 768px) {
     .lead__figure {
-        max-width: 926px;
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .lead__figure {
+        max-width: 984px;
     }
 }

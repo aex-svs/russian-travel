@@ -1,13 +1,13 @@
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 12px;
+    gap: 6px 12px;
     padding: 32px 16px;
 }
 
 @media (min-width: 768px) {
     .photo-grid {
-        gap: 16px;
+        gap: 8px 16px;
         padding: 44px 24px;
     }
 }
@@ -20,6 +20,6 @@
 
 @media (min-width: 1240px) {
     .photo-grid {
-        padding: 44px 0px;
+        padding: 32px 0px;
     }
 }

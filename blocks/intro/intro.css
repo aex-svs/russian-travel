@@ -9,3 +9,11 @@
         margin: 0 auto;
     }
 }
+
+@media (min-width: 1024px) {
+    .intro {
+        padding: 60px 0;
+        max-width: 984px;
+        margin: 0 auto;
+    }
+}
