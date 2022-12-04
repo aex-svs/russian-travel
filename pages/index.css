@@ -12,7 +12,7 @@
 
 /* BEM mix*/
 
-@import url(../blocks/list-reset/list-reset.css);
+@import url(../blocks/list-clear/list-clear.css);
 @import url(../blocks/link-hover/link-hover.css);
 
 /* header */
@@ -60,7 +60,6 @@
 /*cover*/
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
