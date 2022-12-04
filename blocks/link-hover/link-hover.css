@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+    .link-hover {
+        transition: color var(--transition);
+    }
+    .link-hover:hover {
+        opacity: var(--opacity);
+    }
+}

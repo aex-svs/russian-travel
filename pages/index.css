@@ -13,6 +13,7 @@
 /* BEM mix*/
 
 @import url(../blocks/list-reset/list-reset.css);
+@import url(../blocks/link-hover/link-hover.css);
 
 /* header */
 
