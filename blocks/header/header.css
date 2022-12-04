@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    padding: 16px 16px 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 1280px) {
+    .header {
+        padding-bottom: 12px;
+    }
+}

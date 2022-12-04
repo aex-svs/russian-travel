@@ -1,0 +1,59 @@
+.cover {
+    position: relative;
+}
+
+.cover__background {
+    background-image: url(../../images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 8/5;
+}
+
+.cover__link {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.cover__title {
+    max-width: 560px;
+    text-align: center;
+}
+
+.cover__subtitle {
+    max-width: 360px;
+    text-align: center;
+}
+
+
+/*
+.cover__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+*/
+
+.cover__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

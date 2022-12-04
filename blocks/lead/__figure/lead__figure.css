@@ -1,0 +1,9 @@
+.lead__figure {
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .lead__figure {
+        max-width: 926px;
+    }
+}

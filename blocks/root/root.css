@@ -1,0 +1,17 @@
+:root {
+    /*color*/
+    --bg-color: #2a2c2f;
+    --text-color: #ffffff;
+    --opacity: 0.8;
+    --transition: 0.5s ease-in-out;
+}
+
+.root {
+    max-width: 1184px;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    line-height: 163%;
+    font-weight: 400;
+    color: var(--text-color);
+    background: var(--bg-color);
+}
