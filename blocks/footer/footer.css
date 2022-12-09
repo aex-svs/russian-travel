@@ -2,7 +2,7 @@
     padding: 64px 16px 24px;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 40px;
 }
 
 @media (min-width: 768px) {
@@ -11,10 +11,17 @@
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
+        padding: 78px 24px 20px;
     }
 }
 
 @media (min-width: 1024px) {
+    .footer {
+        padding: 86px 47px 19px;
+    }
+}
+
+@media (min-width: 1280px) {
     .footer {
         padding-left: 0;
         padding-right: 0;

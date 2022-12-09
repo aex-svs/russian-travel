@@ -6,6 +6,12 @@
     margin-bottom: 25px;
 }
 
+@media (min-width: 768px) {
+    .place__paragraph:not(:last-child) {
+        margin-bottom: 23px;
+    }
+}
+
 @media (min-width: 1024px) {
     .place__paragraph {
         font-size: 18px;

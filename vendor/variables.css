@@ -1,0 +1,7 @@
+:root {
+    /*color*/
+    --bg-color: #2a2c2f;
+    --text-color: #ffffff;
+    --opacity: 0.8;
+    --transition: 0.3s ease-in-out;
+}
